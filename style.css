@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 40%;
+}
+
+.atividade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+    background-color: rgb(41, 197, 93);
+}
+
+p {
+    width: 25%;
+}
+
+body {
+    background-image: url(biblio.png.png);
+}
+
+@media screen and (max-width: 425px) {
+    h1{
+        font-size: 40px;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+    .atividade {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+}
